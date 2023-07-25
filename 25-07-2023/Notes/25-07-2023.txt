@@ -1,0 +1,45 @@
+Connected Approach
+SqlDataReader
+
+
+DisConnected Approach
+SqlDataAdapter
+
+Entity Framework:
+ORM Tool
+Object Relational Mapping
+
+
+class User
+{
+   int id;
+   string name;
+   int age;
+}
+
+User user=new User();
+List<User> Users=new Users();
+
+Context:
+  Table-objects
+
+1.DB First Approach
+2.Code First Approach
+3.Model First Approach
+
+Note: Every Table must contain a primary key as mandetory
+
+System.Data.Entity
+
+
+code->table
+
+Package Manager Commands:
+
+enable-migrations
+
+add-migration 'initial'
+update-database
+
+
+
